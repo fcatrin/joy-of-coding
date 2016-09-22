@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView 
+            android:id="@+id/txtMatrix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lines="3"
+            android:fontFamily="monospace"
+            android:layout_gravity="center_horizontal"
+             />
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <SeekBar
+	            android:id="@+id/barMatrix0"
+	            style="@style/matrixSlider" />
+	        <SeekBar
+	            android:id="@+id/barMatrix1"
+	            style="@style/matrixSlider" />
+	        <SeekBar
+	            android:id="@+id/barMatrix2"
+	            style="@style/matrixSlider" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <SeekBar
+	            android:id="@+id/barMatrix3"
+	            style="@style/matrixSlider" />
+	        <SeekBar
+	            android:id="@+id/barMatrix4"
+	            style="@style/matrixSlider" />
+	        <SeekBar
+	            android:id="@+id/barMatrix5"
+	            style="@style/matrixSlider" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <SeekBar
+	            android:id="@+id/barMatrix6"
+	            style="@style/matrixSlider" />
+	        <SeekBar
+	            android:id="@+id/barMatrix7"
+	            style="@style/matrixSlider" />
+	        <SeekBar
+	            android:id="@+id/barMatrix8"
+	            style="@style/matrixSlider" />
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>
