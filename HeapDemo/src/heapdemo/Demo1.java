@@ -10,6 +10,7 @@ public class Demo1 {
 	 * index 0 : char[]
 	 * index 1 : char[]
 	 * index n : char[]
+	 * 
 	 */
 	
 	public static void main(String[] args) {
