@@ -1,6 +1,5 @@
 package heapdemo;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Utils {
