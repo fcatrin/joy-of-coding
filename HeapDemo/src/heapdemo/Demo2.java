@@ -1,6 +1,15 @@
 package heapdemo;
 
 public class Demo2 {
+	
+	/*
+	 * data:
+	 * index 0 : char[]
+	 * index 1 : char[]
+	 * index 999999 : char[]
+	 * 
+	 */
+	
 	static char[][] data = new char[Utils.LINES][Utils.CHARS];
 
 	public static void main(String[] args) {
